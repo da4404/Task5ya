@@ -7,7 +7,7 @@ public class Main {
                 new Piano("c major"),
                 new Drum("bass")
         };
-        for (Playable instrument : band)
+        for (Playable instrument : band )
         {
             instrument.play();
         }
